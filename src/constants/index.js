@@ -3,19 +3,20 @@ import {
     html,
     css,
     bootstrap,
-    sass,
     javascript,
-    jquery,
     threejs,
     reactjs,
     styled,
     git,
     figma,
-    postgress,
+    wordpress,
+    shopify,
     photoshop,
     google,
     aly,
     promarketing,
+    maven,
+    flagship,
     telo,
     carrent,
     jobit,
@@ -25,15 +26,15 @@ import {
   export const navLinks = [
     {
       id: "Experiencia",
-      title: "Experiencia",
+      title: "Experience",
     },
     {
       id: "Sobre mi",
-      title: "Sobre mí",
+      title: "About",
     },
     {
       id: "Contactame",
-      title: "Contáctame",
+      title: "Contact",
     },
   ];
   
@@ -58,16 +59,8 @@ import {
       icon: bootstrap,
     },
     {
-      name: "Sass",
-      icon: sass,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
-    },
-    {
-      name: "Jquery",
-      icon: jquery,
     },
     {
       name: "Three Js",
@@ -82,16 +75,20 @@ import {
       icon: styled,
     },
     {
+      name: "Wordpress",
+      icon: wordpress,
+    },
+    {
+      name: "Shopify",
+      icon: shopify,
+    },
+    {
       name: "Git",
       icon: git,
     },
     {
       name: "Figma",
       icon: figma,
-    },
-    {
-      name: "PostgreSQL",
-      icon: postgress,
     },
     {
       name: "Photoshop",
@@ -109,11 +106,11 @@ import {
       company_name: "AlySystem",
       icon: aly,
       iconBg: "#383E56",
-      date: "Marzo 2021 - Agosto 2021",
+      date: "March 2021 - August 2021",
       points: [
-        "Aprendí a utilizar Figma para crear pantallas para un módulo de contabilidad.",
-        "Aprendí más en javascript ya que conocía lo básico y para entrar con React necesitaba mejorar en Javascript esa fue mi meta antes de pasarme a React js.",
-        "Utilicé React js y Sass como tecnologías Frontend para realizar la maquetación que habia hecho en Figma."
+        "I learned to use Figma to create screens for an accounting module.",
+        "I learned more in javascript since I knew the basics and to get into React I needed to improve in javascript that was my goal before switching to React js.",
+        "I used React js and Sass as Frontend technologies to carry out the layout that I had done in Figma."
       ],
     },
     {
@@ -121,28 +118,54 @@ import {
       company_name: "Telo Group",
       icon: telo,
       iconBg: "#E6DEDD",
-      date: "Febrero 2022 - Junio 2022",
+      date: "February 2022 - June 2022",
       points: [
-        "Estuve trabajando en una Landing page relacionada el mundo del NFT y Smart Contracts.",
-        "Utilicé tecnologías como React js, css más en el lado de las animaciones.",
-        "Realicé un Cambio de idioma para ello utilicé i18n.",
-        "La página en sí fue testeada en diferentes navegadores como Edge, Chrome, Firefox y Safari"
+        "I was working on a landing page related to the world of NFTs and Smart Contracts.",
+        "I used technologies like React js, css more on the animation side.",
+        "I implemented a language switching feature using i18n.",
+        "The page itself was tested on different browsers such as Edge, Chrome, Firefox and Safari"
       ],
     },
     {
-      title: "Website Developer",
+      title: "Web Developer",
       company_name: "Pro marketing Innovations",
       icon: promarketing,
       iconBg: "#383E56",
-      date: "Septiembre 2022 - Actualidad",
+      date: "September 2022 - June 2024",
       points: [
-        "Desarrollo websites para clientes de California y Pensilvania.",
-        "Entre las tecnologías que utilizo son: Html, Css, Javascript, Jquery, Php y Photoshop para ciertas modificaciones en imágenes.",
-        "Uitlizo SEO para las páginas, carga diferida de imágenes, compresion de imagenes y archivos con htaccess entre otras técnicas para mejorar el rendimiento de un sitio web.",
-        "Manejo hosting y dominio para cada sitio web entre los hosting que manejo son Bluehost y Godaddy para hacer el deploy de cada sitio web.",
-        "Utilizo la herramienta Google Search Console para indexar el sitio web a Google.",
-        "Creo Google my Business para dar presencia a los negocios por medio de Google maps.",
-        "También creo el contenido para los sitios web en inglés al igual que llevo el manejo de las redes sociales de los clientes como herramienta utilizo Meta Business Suite y Metricool."
+        "Among the technologies I used are: Html, Css, Javascript, Jquery, Php and Photoshop for certain image modifications.",
+        "I did SEO for the pages, lazy loading of images, compression of images and files with htaccess among other techniques to improve the performance of a website.",
+        "I manage hosting and domains for each website. The hosting providers I use are Bluehost and GoDaddy for deploying each website..",
+        "Use the Google Search Console tool to get your website indexed by Google.",
+        "Create Google My Business listings to give businesses a presence through Google Maps.",
+        "I also created content for English websites and manage clients' social media accounts using Meta Business Suite and Metricool as tools."
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "Maven Marketing",
+      icon: maven,
+      iconBg: "#383E56",
+      date: "June 2024 - August 2025",
+      points: [
+        "I created websites with PHP and WordPress, and I used a WordPress website builder like Elementor.",
+        "Management of hosting such as Hostgator, Godaddy, Bluehost, etc.",
+        "Domain management, DNS, domain transfers to other providers, creation of subdomains and corporate emails",
+        "Landing page creation for marketing campaigns"
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "Flagship Studio",
+      icon: flagship,
+      iconBg: "#383E56",
+      date: "August 2025 - Present.",
+      points: [
+        "Website creation, with HTML, PHP, WordPress. With WordPress I've used Elementor, Brizy, WP Bakery and a little bit of Divi.",
+        "We provide monthly maintenance for WordPress sites, keeping plugins and themes updated, updating the PHP version if necessary, and correcting any errors on the site.",
+        "Hosting management, domain, such as Hostgator, Godaddy, Namecheap, Wix, Hostinger",
+        "Creation of blog posts for clients, and the company website",
+        "Sometimes I have to talk to clients to better understand the requirements for a new project; the whole environment is in English: meetings, chats, tasks"
       ],
     }
   ];

@@ -33,12 +33,11 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         {/* <p className={styles.sectionSubText}>Acerca</p> */}
-        <h2 className={styles.sectionHeadText}>Acerca de mi.</h2>
+        <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Soy Franky Larios, un apasionado Desarrollador Frontend. Mi enfoque principal se centra en tecnologías como JavaScript y React JS. A lo largo de mi carrera, he trabajado en diversos proyectos donde he aplicado mis habilidades para crear interfaces de usuario dinámicas y atractivas utilizando estas tecnologías.
+        I'm Franky Larios, a passionate Web Developer with a degree in Systems Engineering. Throughout my career, I've worked on various projects where I've applied my skills to create dynamic and engaging user interfaces using technologies like React, PHP, and WordPress.
       </motion.p>
-
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index}

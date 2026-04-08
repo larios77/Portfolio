@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] mt-5  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -16,16 +16,25 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hola Soy <span className='text-[#915EFF]'>Franky</span>
+            Hi! I am <span className='text-[#915EFF]'>Franky Larios</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Desarrollador 
-            Frontend.
+            Web Developer.
+          </p>
+          <p className={`${styles.heroDescription} mt-2 text-white-100`}>
+            I’m a Systems Engineer who loves turning
+            ideas into efficient, working solutions. I’m
+            passionate about problem-solving,
+            especially when it comes to making
+            systems run better and smarter. Whether
+            I’m coding, learning something new, or
+            facing a tough challenge, I’m always
+            looking for ways to grow and improve.
           </p>
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
+      {/* <ComputersCanvas />  */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#Sobre mi'>
