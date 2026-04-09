@@ -1,9 +1,29 @@
 import { motion } from "framer-motion";
-
+import { useState, useEffect } from "react";
 import { styles } from "../styles";
-// import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Definimos el límite de píxeles para móvil
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
+
+    // Seteamos el valor inicial
+    setIsMobile(mediaQuery.matches);
+
+    // Escuchamos cambios en el tamaño de la pantalla
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+    };
+  }, []);
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -34,7 +54,12 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <ComputersCanvas />  */}
+      <>
+        {/* Solo se renderiza si NO es móvil */}
+        {!isMobile && <ComputersCanvas />}
+
+        {/* Resto de tu código */}
+      </>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#Sobre mi'>
