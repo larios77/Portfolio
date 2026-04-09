@@ -18,9 +18,18 @@ import {
     maven,
     flagship,
     telo,
-    carrent,
-    jobit,
-    tripguide,
+    project1,
+    project2,
+    project3,
+    project4,
+    project5,
+    project6,
+    project7,
+    project8,
+    project9,
+    project10,
+    project11,
+    project12
   } from "../assets";
   
   export const navLinks = [
@@ -199,67 +208,200 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Flagship Studio",
       tags: [
         {
-          name: "react",
+          name: "Wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Elementor",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: project1,
+      source_code_link: "https://flagshipstudio.com/",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "Maven Marketing",
       tags: [
         {
-          name: "react",
+          name: "Php",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Javascript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Html",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: project2,
+      source_code_link: "https://go-maven.com/",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Sulvaran Drywall",
       tags: [
         {
-          name: "nextjs",
+          name: "Php",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Javascript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Html",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: project3,
+      source_code_link: "https://www.sulvarandrywallca.com/",
+    },
+    {
+      name: "Connect Creative",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project4,
+      source_code_link: "https://connectcreativeni.com/",
+    },
+    {
+      name: "Vexcor",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project5,
+      source_code_link: "https://www.vexcor.build/",
+    },
+    {
+      name: "El Cliente Final",
+      tags: [
+        {
+          name: "React Js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: project6,
+      source_code_link: "https://elclientefinal.com/",
+    },
+    {
+      name: "Tanya Shalem",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project7,
+      source_code_link: "https://tanyashalem.com/",
+    },
+    {
+      name: "Blue Paradise",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Elementor",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project8,
+      source_code_link: "https://www.blueparadisecustompoolsinc.com/",
+    },
+    {
+      name: "LKL Masonry",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Elementor",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project9,
+      source_code_link: "https://www.lklmasonryllc.com/",
+    },
+    {
+      name: "Dreszer Photography",
+      tags: [
+        {
+          name: "Shopify",
+          color: "green-text-gradient",
+        },
+      ],
+      image: project10,
+      source_code_link: "https://dahliadreszer.com/",
+    },
+    {
+      name: "Comerio Homes NWA",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Wp Bakery",
+          color: "green-text-gradient",
+        },
+      ],
+      image: project11,
+      source_code_link: "https://comeriohomesnwa.com/",
+    },
+    {
+      name: "Contractor 4 Christ",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Brizy",
+          color: "green-text-gradient",
+        },
+      ],
+      image: project12,
+      source_code_link: "https://contractors4christ.com/",
     },
   ];
   
